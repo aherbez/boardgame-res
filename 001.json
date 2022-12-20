@@ -1,0 +1,19 @@
+{
+    "board": {
+        "src": "https://aherbez.github.io/boardgame-res/boards/007.jpg",
+        "aspect": 1.0
+    },
+    "pieces": [
+        {
+            "id": 1,
+            "name": "meeple"
+        }
+    ],
+    "colors": [
+        { "id": 1, "value": "#FF0000"},
+        { "id": 2, "value": "#0000FF"}
+    ],
+    "loadouts": [
+        { "pieces": [{"id": 1, "num": 3, "color": "p"}]}
+    ]
+}
