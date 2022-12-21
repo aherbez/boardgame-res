@@ -1,0 +1,52 @@
+{
+    "board": {
+        "src": "https://aherbez.github.io/boardgame-res/boards/006.jpg",
+        "aspect": 1.0
+    },
+    "pieces": [
+        {
+            "id": 1,
+            "name": "meeple",
+            "geo": [
+                {
+                    "points": [
+                        [-0.5, 0.0],
+                        [-0.5, 1.0],
+                        [0.5, 1.0],
+                        [0.5, 0.0]
+                    ],
+                    "type": "ext",
+                    "amt": 1.0
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "pawn",
+            "geo": [
+                {
+                    "points": [
+                        [0.0, 0.0],
+                        [0.0, 1.0],
+                        [0.2, 1.0],
+                        [0.4, 0.0]
+                    ],
+                    "type": "rev",
+                    "amt": 1.0
+                }
+            ]
+        }
+    ],
+    "colors": [
+        { "id": 1, "value": "#FF0000"},
+        { "id": 2, "value": "#0000FF"}
+    ],
+    "loadouts": [
+        { 
+            "pieces": [
+                {"id": 1, "num": 3, "color": "p"}, 
+                {"id": 2, "num": 5, "color": "p"}
+            ]
+        }
+    ]
+}
