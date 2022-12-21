@@ -1,7 +1,7 @@
 {
     "board": {
         "src": "https://aherbez.github.io/boardgame-res/boards/006.jpg",
-        "aspect": 1.0
+        "aspect": 0.6
     },
     "pieces": [
         {
