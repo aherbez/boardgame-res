@@ -390,8 +390,8 @@
         }
     ],
     "colors": [
-        { "id": 1, "value": "#FF0000"},
-        { "id": 2, "value": "#0000FF"}
+        { "id": 1, "value": "#339900"},
+        { "id": 2, "value": "#330066"}
     ],
     "loadouts": { 
         "pieces": [
