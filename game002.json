@@ -1,5 +1,20 @@
 {
-    "board": {
+  "spinners": [
+    {
+      "id": 1,
+      "options": [
+        {"t": "MOVE", "v": 2},
+        {"t": "MOVE", "v": 4},
+        {"t": "MOVE", "v": 2},
+        {"t": "MOVE", "v": 8}
+      ]
+    }
+  ],
+  "turn_desc": [{
+    "type": "SPIN",
+    "value": 1
+  }],
+  "board": {
         "src": "https://aherbez.github.io/boardgame-res/boards/006.jpg",
         "aspect": 0.7058823529411765,
         "locations": [

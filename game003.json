@@ -1,4 +1,21 @@
 {
+  "spinners": [
+    {
+      "id": 1,
+      "options": [
+        {"t": "MOVE_F", "v": 1},
+        {"t": "MOVE_F", "v": 2},
+        {"t": "MOVE_F", "v": 3},
+        {"t": "MOVE_F", "v": 4},
+        {"t": "MOVE_F", "v": 5},
+        {"t": "MOVE_F", "v": 6}
+      ]
+    }
+  ],
+  "turn_desc": [{
+    "type": "SPIN",
+    "value": 1
+  }],
     "pieces": [
         {
             "id": 1,
