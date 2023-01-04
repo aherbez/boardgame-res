@@ -412,5 +412,14 @@
       "pieces": [
           {"id": 2, "num": 1, "color": "p", "start_loc": 0}
       ]
-  }
+  },
+  "win_conditions": [
+      {
+        "t": "PIECE_AT_LOC",
+        "args": {
+          "piece": 2,
+          "loc": 43
+        }
+      }
+    ]
 }
