@@ -216,7 +216,7 @@
       }
     ]
   },
-    "pieces": [
+  "pieces": [
         {
             "id": 1,
             "name": "house",
@@ -257,8 +257,7 @@
     ],
     "loadouts": { 
         "pieces": [
-            {"id": 1, "num": 3, "color": "p"}, 
-            {"id": 2, "num": 5, "color": "p"}
+            {"id": 2, "num": 1, "color": "p"}
         ]
     }
 }
