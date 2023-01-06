@@ -22,6 +22,7 @@
     "value": 1
   }],
   "board": {
+    "src": "https://aherbez.github.io/boardgame-res/boards/005.jpg",
       "aspect": 0.5964052287581699,
       "locations": [
         {
