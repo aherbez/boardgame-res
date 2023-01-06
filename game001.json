@@ -1,5 +1,13 @@
 {
   "players": 2,
+  "resources": [
+    {"id": 1, "name": "iron", "start": 5},
+    {"id": 2, "name": "wheat", "start": 20},
+    {"id": 3, "name": "wood", "start": 20},
+    {"id": 4, "name": "clay", "start": 20},
+    {"id": 5, "name": "sheep", "start": 20},
+    {"id": 6, "name": "gold", "start": 0}
+  ],
   "spinners": [{
     "id": 1,
     "options": [

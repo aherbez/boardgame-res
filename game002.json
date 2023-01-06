@@ -1,5 +1,8 @@
 {
   "players": 2,
+  "resources": [
+    {"id": 1, "name": "money", "start": 0}
+  ],
   "spinners": [
     {
       "id": 1,
@@ -138,7 +141,7 @@
           {
             "type": "ACTION_MOVE_TO",
             "args": [
-              17
+              15
             ]
           }
         ]
