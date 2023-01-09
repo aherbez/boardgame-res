@@ -11,12 +11,14 @@
   "spinners": [{
     "id": 1,
     "options": [
-      {"t": "MOVE_F", "v": 1},
-      {"t": "MOVE_F", "v": 2},
-      {"t": "MOVE_F", "v": 3},
-      {"t": "MOVE_F", "v": 4},
-      {"t": "MOVE_F", "v": 5},
-      {"t": "MOVE_F", "v": 6}
+      {"t": "MOVE", "v": 1},
+      {"t": "MOVE", "v": 2},
+      {"t": "MOVE", "v": 3},
+      {"t": "MOVE", "v": 4},
+      {"t": "MOVE", "v": 5},
+      {"t": "MOVE", "v": 6},
+      {"t": "MOVE", "v": 7},
+      {"t": "MOVE", "v": 8},
     ]
   }],
   "turn_desc": [{
