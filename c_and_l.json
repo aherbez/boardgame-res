@@ -1,11 +1,6 @@
 {
     "players": 2,
     "resources": [
-      {
-        "id": 1,
-        "name": "Money",
-        "start": 0
-      }
     ],
     "spinners": [
       {
