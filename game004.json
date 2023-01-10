@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "pieces": {
+  "pieces": [{
     "geo": [
       {
         "type": "rev",
@@ -100,7 +100,7 @@
     ],
     "id": 1,
     "name": "meeple"
-  },
+  }],
   "board": {
     "aspect": 1,
     "locations": [
