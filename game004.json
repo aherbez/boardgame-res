@@ -452,7 +452,7 @@
 ],
 "loadouts": { 
     "pieces": [
-        {"id": 2, "num": 1, "color": "p", "start_loc": 0}
+        {"id": 1, "num": 1, "color": "p", "start_loc": 0}
     ]
 },
 }
