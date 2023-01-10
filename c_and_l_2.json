@@ -328,7 +328,14 @@
           19,
           21
         ],
-        "effects": []
+        "effects": [
+            {
+                "type": "ACTION_MOVE_TO",
+                "args": [
+                  41
+                ]
+              }
+        ]
       },
       {
         "x": 0.148,
