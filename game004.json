@@ -445,5 +445,14 @@
       }
     ],
     "src": "https://aherbez.github.io/boardgame-res/boards/001.jpg"
-  }
+  },
+  "colors": [
+    { "id": 1, "value": "#FF0000"},
+    { "id": 2, "value": "#0000FF"}
+],
+"loadouts": { 
+    "pieces": [
+        {"id": 2, "num": 1, "color": "p", "start_loc": 0}
+    ]
+},
 }
