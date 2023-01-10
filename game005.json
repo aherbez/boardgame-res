@@ -24,12 +24,9 @@
   "win_conditions": [
     {
       "t": "PIECE_AT_LOC",
-      "args": [
-        200,
-        1
-      ]
+      "args": [19, 1]
     }
-  ],
+  ]
   "pieces": [
     {
     "geo": [
