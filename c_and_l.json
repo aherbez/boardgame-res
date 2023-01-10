@@ -1,366 +1,410 @@
 {
-  "players": 2,
-  "resources": [
-    {
-      "id": 1,
-      "name": "Money",
-      "start": 0
-    }
-  ],
-  "spinners": [
-    {
-      "id": 1,
-      "options": [
+    "players": 2,
+    "resources": [
+      {
+        "id": 1,
+        "name": "Money",
+        "start": 0
+      }
+    ],
+    "spinners": [
+      {
+        "id": 1,
+        "options": [
+          {
+            "t": "MOVE",
+            "v": 1
+          },
+          {
+            "t": "MOVE",
+            "v": 2
+          },
+          {
+            "t": "MOVE",
+            "v": 3
+          },
+          {
+            "t": "MOVE",
+            "v": 4
+          },
+          {
+            "t": "MOVE",
+            "v": 5
+          },
+          {
+            "t": "MOVE",
+            "v": 6
+          }
+        ]
+      }
+    ],
+    "turn_desc": [
+      {
+        "type": "SPIN",
+        "value": 1
+      }
+    ],
+    "win_conditions": [
+      {
+        "t": "PIECE_AT_LOC",
+        "args": [
+          29,
+          1
+        ]
+      }
+    ],
+    "pieces": [
+      {
+        "geo": [
+          {
+            "type": "rev",
+            "amt": 1,
+            "points": [
+              [
+                0.028000000000000025,
+                0.752
+              ],
+              [
+                0.15200000000000002,
+                0.746
+              ],
+              [
+                0.28600000000000003,
+                0.6659999999999999
+              ],
+              [
+                0.30800000000000005,
+                0.532
+              ],
+              [
+                0.29800000000000004,
+                0.364
+              ],
+              [
+                0.29600000000000004,
+                0.20199999999999996
+              ],
+              [
+                0,
+                0.20199999999999996
+              ],
+              [
+                0,
+                0.752
+              ]
+            ]
+          }
+        ],
+        "id": 1,
+        "name": "meeple"
+      }
+    ],
+    "board": {
+      "aspect": 1.0021367521367521,
+      "locations": [
         {
-          "t": "MOVE",
-          "v": 1
+          "x": 0.044,
+          "y": 0.95,
+          "neighbors": [
+            1
+          ],
+          "effects": []
         },
         {
-          "t": "MOVE",
-          "v": 2
+          "x": 0.15,
+          "y": 0.95,
+          "neighbors": [
+            0,
+            2
+          ],
+          "effects": []
         },
         {
-          "t": "MOVE",
-          "v": 3
+          "x": 0.242,
+          "y": 0.952,
+          "neighbors": [
+            1,
+            3
+          ],
+          "effects": []
         },
         {
-          "t": "MOVE",
-          "v": 4
+          "x": 0.354,
+          "y": 0.95,
+          "neighbors": [
+            2,
+            4
+          ],
+          "effects": [
+            {
+              "type": "ACTION_MOVE_TO",
+              "args": [
+                13
+              ]
+            }
+          ]
         },
         {
-          "t": "MOVE",
-          "v": 5
+          "x": 0.452,
+          "y": 0.952,
+          "neighbors": [
+            3,
+            5
+          ],
+          "effects": []
         },
         {
-          "t": "MOVE",
-          "v": 6
+          "x": 0.534,
+          "y": 0.958,
+          "neighbors": [
+            4,
+            6
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.662,
+          "y": 0.952,
+          "neighbors": [
+            5,
+            7
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.728,
+          "y": 0.952,
+          "neighbors": [
+            6,
+            8
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.836,
+          "y": 0.948,
+          "neighbors": [
+            7,
+            9
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.946,
+          "y": 0.952,
+          "neighbors": [
+            8,
+            10
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.952,
+          "y": 0.852,
+          "neighbors": [
+            9,
+            11
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.842,
+          "y": 0.848,
+          "neighbors": [
+            10,
+            12
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.732,
+          "y": 0.846,
+          "neighbors": [
+            11,
+            13
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.644,
+          "y": 0.844,
+          "neighbors": [
+            12,
+            14
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.542,
+          "y": 0.848,
+          "neighbors": [
+            13,
+            15
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.452,
+          "y": 0.842,
+          "neighbors": [
+            14,
+            16
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.35,
+          "y": 0.846,
+          "neighbors": [
+            15,
+            17
+          ],
+          "effects": [
+            {
+              "type": "ACTION_MOVE_TO",
+              "args": [
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "x": 0.252,
+          "y": 0.846,
+          "neighbors": [
+            16,
+            18
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.162,
+          "y": 0.84,
+          "neighbors": [
+            17,
+            19
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.048,
+          "y": 0.832,
+          "neighbors": [
+            18,
+            20
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.048,
+          "y": 0.744,
+          "neighbors": [
+            19,
+            21
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.162,
+          "y": 0.742,
+          "neighbors": [
+            20,
+            22
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.248,
+          "y": 0.748,
+          "neighbors": [
+            21,
+            23
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.354,
+          "y": 0.748,
+          "neighbors": [
+            22,
+            24
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.448,
+          "y": 0.758,
+          "neighbors": [
+            23,
+            25
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.544,
+          "y": 0.744,
+          "neighbors": [
+            24,
+            26
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.638,
+          "y": 0.762,
+          "neighbors": [
+            25,
+            27
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.732,
+          "y": 0.754,
+          "neighbors": [
+            26,
+            28
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.83,
+          "y": 0.75,
+          "neighbors": [
+            27,
+            29
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.946,
+          "y": 0.744,
+          "neighbors": [
+            28
+          ],
+          "effects": []
+        }
+      ],
+      "src": "https://aherbez.github.io/boardgame-res/boards/c_and_l.jpg"
+    },
+    "colors": [
+      {
+        "id": 1,
+        "value": "#FF0000"
+      },
+      {
+        "id": 2,
+        "value": "#0000FF"
+      }
+    ],
+    "loadouts": {
+      "pieces": [
+        {
+          "id": 1,
+          "num": 1,
+          "color": "p",
+          "start_loc": 0
         }
       ]
     }
-  ],
-  "turn_desc": [
-    {
-      "type": "SPIN",
-      "value": 1
-    }
-  ],
-  "win_conditions": [
-    {
-      "t": "PIECE_AT_LOC",
-      "args": [
-        29,
-        1
-      ]
-    }
-  ],
-  "pieces": [
-    {
-      "points": [],
-      "type": "rev",
-      "amt": 1,
-      "id": 1,
-      "name": "meeple"
-    }
-  ],
-  "board": {
-    "aspect": 1.0021367521367521,
-    "locations": [
-      {
-        "x": 0.044,
-        "y": 0.95,
-        "neighbors": [
-          1
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.15,
-        "y": 0.95,
-        "neighbors": [
-          0,
-          2
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.242,
-        "y": 0.952,
-        "neighbors": [
-          1,
-          3
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.354,
-        "y": 0.95,
-        "neighbors": [
-          2,
-          4
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.452,
-        "y": 0.952,
-        "neighbors": [
-          3,
-          5
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.534,
-        "y": 0.958,
-        "neighbors": [
-          4,
-          6
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.662,
-        "y": 0.952,
-        "neighbors": [
-          5,
-          7
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.728,
-        "y": 0.952,
-        "neighbors": [
-          6,
-          8
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.836,
-        "y": 0.948,
-        "neighbors": [
-          7,
-          9
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.946,
-        "y": 0.952,
-        "neighbors": [
-          8,
-          10
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.952,
-        "y": 0.852,
-        "neighbors": [
-          9,
-          11
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.842,
-        "y": 0.848,
-        "neighbors": [
-          10,
-          12
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.732,
-        "y": 0.846,
-        "neighbors": [
-          11,
-          13
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.644,
-        "y": 0.844,
-        "neighbors": [
-          12,
-          14
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.542,
-        "y": 0.848,
-        "neighbors": [
-          13,
-          15
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.452,
-        "y": 0.842,
-        "neighbors": [
-          14,
-          16
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.35,
-        "y": 0.846,
-        "neighbors": [
-          15,
-          17
-        ],
-        "effects": [
-          {
-            "type": "ACTION_MOVE_TO",
-            "args": [
-              4
-            ]
-          }
-        ]
-      },
-      {
-        "x": 0.252,
-        "y": 0.846,
-        "neighbors": [
-          16,
-          18
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.162,
-        "y": 0.84,
-        "neighbors": [
-          17,
-          19
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.048,
-        "y": 0.832,
-        "neighbors": [
-          18,
-          20
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.048,
-        "y": 0.744,
-        "neighbors": [
-          19,
-          21
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.162,
-        "y": 0.742,
-        "neighbors": [
-          20,
-          22
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.248,
-        "y": 0.748,
-        "neighbors": [
-          21,
-          23
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.354,
-        "y": 0.748,
-        "neighbors": [
-          22,
-          24
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.448,
-        "y": 0.758,
-        "neighbors": [
-          23,
-          25
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.544,
-        "y": 0.744,
-        "neighbors": [
-          24,
-          26
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.638,
-        "y": 0.762,
-        "neighbors": [
-          25,
-          27
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.732,
-        "y": 0.754,
-        "neighbors": [
-          26,
-          28
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.83,
-        "y": 0.75,
-        "neighbors": [
-          27,
-          29
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.946,
-        "y": 0.744,
-        "neighbors": [
-          28
-        ],
-        "effects": []
-      }
-    ],
-    "src": "https://aherbez.github.io/boardgame-res/boards/c_and_l.jpg"
-  },
-  "colors": [
-    {
-      "id": 1,
-      "value": "#FF0000"
-    },
-    {
-      "id": 2,
-      "value": "#0000FF"
-    }
-  ],
-  "loadouts": {
-    "pieces": [
-      {
-        "id": 1,
-        "num": 1,
-        "color": "p",
-        "start_loc": 0
-      }
-    ]
   }
-}
