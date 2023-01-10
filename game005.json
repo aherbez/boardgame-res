@@ -7,37 +7,20 @@
     {
       "id": 1,
       "options": [
-        {
-          "t": "MOVE",
-          "v": 1
-        },
-        {
-          "t": "MOVE",
-          "v": 2
-        },
-        {
-          "t": "MOVE",
-          "v": 3
-        },
-        {
-          "t": "MOVE",
-          "v": 4
-        },
-        {
-          "t": "MOVE",
-          "v": 5
-        },
-        {
-          "t": "MOVE",
-          "v": 6
-        }
+        {"t": "MOVE", "v": 1},
+        {"t": "MOVE", "v": 2},
+        {"t": "MOVE", "v": 3},
+        {"t": "MOVE", "v": 4},
+        {"t": "MOVE", "v": 5},
+        {"t": "MOVE", "v": 6},
+        {"t": "MOVE_TO", "v": 0}
       ]
     }
   ],
   "turn_desc": [{
-      "type": "SPIN",
-      "value": 1
-    }],
+    "type": "SPIN",
+    "value": 1
+  }],
   "win_conditions": [
     {
       "t": "PIECE_AT_LOC",
