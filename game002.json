@@ -337,7 +337,7 @@
         "args": [19, 2]
       },
       {
-        "t": "RESOURCE_AT",
+        "t": "RESOURCE_TO",
         "args": [1, 5]
       }
     ]
