@@ -77,351 +77,221 @@
     "name": "meeple"
     }
 ],
-  "board": {
-    "aspect": 1,
-    "locations": [
-      {
-        "x": 0.058,
-        "y": 0.768,
-        "neighbors": [
-          1
-        ],
-        "effects": [
-          {
-            "type": "ACTION_ADJUST_RESOURCE",
-            "args": [
-              1,
-              200
-            ]
-          }
-        ]
-      },
-      {
-        "x": 0.056,
-        "y": 0.652,
-        "neighbors": [
-          0,
-          2
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.054,
-        "y": 0.49,
-        "neighbors": [
-          1,
-          3
-        ],
-        "effects": [
-          {
-            "type": "ACTION_ADJUST_RESOURCE",
-            "args": [
-              1,
-              -10
-            ]
-          }
-        ]
-      },
-      {
-        "x": 0.06,
-        "y": 0.378,
-        "neighbors": [
-          2,
-          4
-        ],
-        "effects": [
-          {
-            "type": "ACTION_ADJUST_RESOURCE",
-            "args": [
-              1,
-              50
-            ]
-          }
-        ]
-      },
-      {
-        "x": 0.054,
-        "y": 0.216,
-        "neighbors": [
-          3,
-          5
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.052,
-        "y": 0.074,
-        "neighbors": [
-          4,
-          6
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.164,
-        "y": 0.072,
-        "neighbors": [
-          5,
-          7
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.254,
-        "y": 0.076,
-        "neighbors": [
-          6,
-          8
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.352,
-        "y": 0.074,
-        "neighbors": [
-          7,
-          9
-        ],
-        "effects": [
-          {
-            "type": "ACTION_ADJUST_RESOURCE",
-            "args": [
-              1,
-              -10
-            ]
-          }
-        ]
-      },
-      {
-        "x": 0.448,
-        "y": 0.076,
-        "neighbors": [
-          8,
-          10
-        ],
-        "effects": [
-          {
-            "type": "ACTION_ADJUST_RESOURCE",
-            "args": [
-              1,
-              50
-            ]
-          }
-        ]
-      },
-      {
-        "x": 0.55,
-        "y": 0.08,
-        "neighbors": [
-          9,
-          11
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.642,
-        "y": 0.088,
-        "neighbors": [
-          10,
-          12
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.748,
-        "y": 0.08,
-        "neighbors": [
-          11,
-          13
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.846,
-        "y": 0.084,
-        "neighbors": [
-          12,
-          14
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.946,
-        "y": 0.08,
-        "neighbors": [
-          13,
-          15
-        ],
-        "effects": [
-          {
-            "type": "ACTION_ADJUST_RESOURCE",
-            "args": [
-              1,
-              -10
-            ]
-          }
-        ]
-      },
-      {
-        "x": 0.946,
-        "y": 0.226,
-        "neighbors": [
-          14,
-          16
-        ],
-        "effects": [
-          {
-            "type": "ACTION_ADJUST_RESOURCE",
-            "args": [
-              1,
-              50
-            ]
-          }
-        ]
-      },
-      {
-        "x": 0.942,
-        "y": 0.366,
-        "neighbors": [
-          15,
-          17
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.94,
-        "y": 0.498,
-        "neighbors": [
-          16,
-          18
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.944,
-        "y": 0.642,
-        "neighbors": [
-          17,
-          19
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.944,
-        "y": 0.764,
-        "neighbors": [
-          18,
-          20
-        ],
-        "effects": [
-          {
-            "type": "ACTION_ADJUST_RESOURCE",
-            "args": [
-              1,
-              -10
-            ]
-          }
-        ]
-      },
-      {
-        "x": 0.846,
-        "y": 0.778,
-        "neighbors": [
-          19,
-          21
-        ],
-        "effects": [
-          {
-            "type": "ACTION_ADJUST_RESOURCE",
-            "args": [
-              1,
-              50
-            ]
-          }
-        ]
-      },
-      {
-        "x": 0.756,
-        "y": 0.772,
-        "neighbors": [
-          20,
-          22
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.648,
-        "y": 0.782,
-        "neighbors": [
-          21,
-          23
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.552,
-        "y": 0.778,
-        "neighbors": [
-          22,
-          24
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.442,
-        "y": 0.778,
-        "neighbors": [
-          23,
-          25
-        ],
-        "effects": []
-      },
-      {
-        "x": 0.352,
-        "y": 0.772,
-        "neighbors": [
-          24,
-          26
-        ],
-        "effects": [
-          {
-            "type": "ACTION_ADJUST_RESOURCE",
-            "args": [
-              1,
-              -10
-            ]
-          }
-        ]
-      },
-      {
-        "x": 0.242,
-        "y": 0.764,
-        "neighbors": [
-          25,
-          27
-        ],
-        "effects": [
-          {
-            "type": "ACTION_ADJUST_RESOURCE",
-            "args": [
-              1,
-              50
-            ]
-          }
-        ]
-      },
-      {
-        "x": 0.144,
-        "y": 0.768,
-        "neighbors": [
-          26,
-          0
-        ],
-        "effects": []
-      }
-    ],
-    "src": "https://aherbez.github.io/boardgame-res/boards/001.jpg"
-  },
+"board": {
+    "src": "https://aherbez.github.io/boardgame-res/boards/005.jpg",
+      "aspect": 0.5964052287581699,
+      "locations": [
+        {
+          "x": 0.242,
+          "y": 0.16,
+          "neighbors": [
+            1
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.332,
+          "y": 0.178,
+          "neighbors": [
+            0,
+            2
+          ],
+          "effects": [
+            {
+              "type": "ACTION_ADJUST_RESOURCE",
+              "args": [
+                1,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "x": 0.438,
+          "y": 0.166,
+          "neighbors": [
+            1,
+            3
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.564,
+          "y": 0.126,
+          "neighbors": [
+            2,
+            4
+          ],
+          "effects": [
+            {
+              "type": "ACTION_MOVE_TO",
+              "args": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "x": 0.672,
+          "y": 0.112,
+          "neighbors": [
+            3,
+            5
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.784,
+          "y": 0.17,
+          "neighbors": [
+            4,
+            6
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.822,
+          "y": 0.326,
+          "neighbors": [
+            5,
+            7
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.786,
+          "y": 0.474,
+          "neighbors": [
+            6,
+            8
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.69,
+          "y": 0.502,
+          "neighbors": [
+            7,
+            9
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.6,
+          "y": 0.472,
+          "neighbors": [
+            8,
+            10
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.486,
+          "y": 0.42,
+          "neighbors": [
+            9,
+            11
+          ],
+          "effects": [
+            {
+              "type": "ACTION_ADJUST_RESOURCE",
+              "args": [
+                1,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "x": 0.362,
+          "y": 0.37,
+          "neighbors": [
+            10,
+            12
+          ],
+          "effects": [
+            {
+              "type": "ACTION_MOVE_TO",
+              "args": [
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "x": 0.24,
+          "y": 0.422,
+          "neighbors": [
+            11,
+            13
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.182,
+          "y": 0.598,
+          "neighbors": [
+            12,
+            14
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.22,
+          "y": 0.744,
+          "neighbors": [
+            13,
+            15
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.326,
+          "y": 0.788,
+          "neighbors": [
+            14,
+            16
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.43,
+          "y": 0.772,
+          "neighbors": [
+            15,
+            17
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.538,
+          "y": 0.748,
+          "neighbors": [
+            16,
+            18
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.644,
+          "y": 0.766,
+          "neighbors": [
+            17,
+            19
+          ],
+          "effects": []
+        },
+        {
+          "x": 0.744,
+          "y": 0.794,
+          "neighbors": [
+            18
+          ],
+          "effects": []
+        }
+      ]
+    },
+
   "colors": [
     { "id": 1, "value": "#FF0000"},
     { "id": 2, "value": "#0000FF"}
