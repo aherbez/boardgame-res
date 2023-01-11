@@ -451,11 +451,11 @@
   "colors": [
     {
       "id": 1,
-      "value": "#ff00f2"
+      "value": "#0000ff"
     },
     {
       "id": 2,
-      "value": "#ff0006"
+      "value": "#ff0000"
     }
   ],
   "loadouts": {
