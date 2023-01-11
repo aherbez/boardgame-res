@@ -1,0 +1,502 @@
+{
+  "players": 2,
+  "resources": [{"id": 1, "name": "money", "start": 0}],
+  "spinners": [
+    {
+      "id": 1,
+      "options": [
+        {
+          "t": "MOVE",
+          "v": 1
+        },
+        {
+          "t": "MOVE",
+          "v": 2
+        },
+        {
+          "t": "MOVE",
+          "v": 3
+        },
+        {
+          "t": "MOVE",
+          "v": 4
+        },
+        {
+          "t": "MOVE",
+          "v": 5
+        },
+        {
+          "t": "MOVE",
+          "v": 6
+        }
+      ]
+    }
+  ],
+  "turn_desc": [
+    {
+      "type": "SPIN",
+      "value": 1
+    }
+  ],
+  "win_conditions": [
+    {
+        "t": "RESOURCE_TO",
+        "args": [1, 1000]
+      }
+  ],
+  "pieces": [
+    {
+      "geo": [
+        {
+          "type": "rev",
+          "amt": 1,
+          "points": [
+            [
+              0.016000000000000014,
+              0.776
+            ],
+            [
+              0.04200000000000004,
+              0.764
+            ],
+            [
+              0.06599999999999995,
+              0.718
+            ],
+            [
+              0.17200000000000004,
+              0.712
+            ],
+            [
+              0.17600000000000005,
+              0.5820000000000001
+            ],
+            [
+              0.08399999999999996,
+              0.554
+            ],
+            [
+              0.08399999999999996,
+              0.482
+            ],
+            [
+              0.06799999999999995,
+              0.33399999999999996
+            ],
+            [
+              0.09399999999999997,
+              0.18200000000000005
+            ],
+            [
+              0.10399999999999998,
+              0.09599999999999997
+            ],
+            [
+              0.15400000000000003,
+              0.06599999999999995
+            ],
+            [
+              0.4,
+              0.05400000000000005
+            ],
+            [
+              0,
+              0.05400000000000005
+            ],
+            [
+              0,
+              0.776
+            ]
+          ]
+        }
+      ],
+      "id": 1,
+      "name": "meeple"
+    }
+  ],
+  "board": {
+    "aspect": 1,
+    "locations": [
+      {
+        "x": 0.052,
+        "y": 0.772,
+        "neighbors": [
+          1
+        ],
+        "effects": [
+          {
+            "type": "ACTION_ADJUST_RESOURCE",
+            "args": [
+              null,
+              200
+            ]
+          }
+        ]
+      },
+      {
+        "x": 0.054,
+        "y": 0.64,
+        "neighbors": [
+          0,
+          2
+        ],
+        "effects": []
+      },
+      {
+        "x": 0.052,
+        "y": 0.5,
+        "neighbors": [
+          1,
+          3
+        ],
+        "effects": [
+          {
+            "type": "ACTION_ADJUST_RESOURCE",
+            "args": [
+              1,
+              -10
+            ]
+          },
+          {
+            "type": "ACTION_SPIN",
+            "args": [1]
+          }
+        ]
+      },
+      {
+        "x": 0.052,
+        "y": 0.358,
+        "neighbors": [
+          2,
+          4
+        ],
+        "effects": [
+          {
+            "type": "ACTION_ADJUST_RESOURCE",
+            "args": [
+              1,
+              20
+            ]
+          }
+        ]
+      },
+      {
+        "x": 0.054,
+        "y": 0.216,
+        "neighbors": [
+          3,
+          5
+        ],
+        "effects": []
+      },
+      {
+        "x": 0.052,
+        "y": 0.084,
+        "neighbors": [
+          4,
+          6
+        ],
+        "effects": []
+      },
+      {
+        "x": 0.156,
+        "y": 0.082,
+        "neighbors": [
+          5,
+          7
+        ],
+        "effects": []
+      },
+      {
+        "x": 0.25,
+        "y": 0.08,
+        "neighbors": [
+          6,
+          8
+        ],
+        "effects": []
+      },
+      {
+        "x": 0.346,
+        "y": 0.08,
+        "neighbors": [
+          7,
+          9
+        ],
+        "effects": [
+          {
+            "type": "ACTION_ADJUST_RESOURCE",
+            "args": [
+              1,
+              -10
+            ]
+          },
+          {
+            "type": "ACTION_SPIN",
+            "args": [1]
+          }
+        ]
+      },
+      {
+        "x": 0.456,
+        "y": 0.082,
+        "neighbors": [
+          8,
+          10
+        ],
+        "effects": [
+          {
+            "type": "ACTION_ADJUST_RESOURCE",
+            "args": [
+              1,
+              20
+            ]
+          }
+        ]
+      },
+      {
+        "x": 0.548,
+        "y": 0.088,
+        "neighbors": [
+          9,
+          11
+        ],
+        "effects": []
+      },
+      {
+        "x": 0.646,
+        "y": 0.086,
+        "neighbors": [
+          10,
+          12
+        ],
+        "effects": []
+      },
+      {
+        "x": 0.742,
+        "y": 0.084,
+        "neighbors": [
+          11,
+          13
+        ],
+        "effects": []
+      },
+      {
+        "x": 0.846,
+        "y": 0.086,
+        "neighbors": [
+          12,
+          14
+        ],
+        "effects": []
+      },
+      {
+        "x": 0.948,
+        "y": 0.09,
+        "neighbors": [
+          13,
+          15
+        ],
+        "effects": [
+          {
+            "type": "ACTION_ADJUST_RESOURCE",
+            "args": [
+              1,
+              -10
+            ]
+          },
+          {
+            "type": "ACTION_SPIN",
+            "args": [1]
+          }
+        ]
+      },
+      {
+        "x": 0.938,
+        "y": 0.218,
+        "neighbors": [
+          14,
+          16
+        ],
+        "effects": [
+          {
+            "type": "ACTION_ADJUST_RESOURCE",
+            "args": [
+              1,
+              20
+            ]
+          }
+        ]
+      },
+      {
+        "x": 0.946,
+        "y": 0.356,
+        "neighbors": [
+          15,
+          17
+        ],
+        "effects": []
+      },
+      {
+        "x": 0.946,
+        "y": 0.506,
+        "neighbors": [
+          16,
+          18
+        ],
+        "effects": []
+      },
+      {
+        "x": 0.946,
+        "y": 0.64,
+        "neighbors": [
+          17,
+          19
+        ],
+        "effects": []
+      },
+      {
+        "x": 0.95,
+        "y": 0.762,
+        "neighbors": [
+          18,
+          20
+        ],
+        "effects": [
+          {
+            "type": "ACTION_ADJUST_RESOURCE",
+            "args": [
+              1,
+              -10
+            ]
+          },
+          {
+            "type": "ACTION_SPIN",
+            "args": [1]
+          }
+        ]
+      },
+      {
+        "x": 0.842,
+        "y": 0.768,
+        "neighbors": [
+          19,
+          21
+        ],
+        "effects": [
+          {
+            "type": "ACTION_ADJUST_RESOURCE",
+            "args": [
+              1,
+              20
+            ]
+          }
+        ]
+      },
+      {
+        "x": 0.748,
+        "y": 0.772,
+        "neighbors": [
+          20,
+          22
+        ],
+        "effects": []
+      },
+      {
+        "x": 0.644,
+        "y": 0.77,
+        "neighbors": [
+          21,
+          23
+        ],
+        "effects": []
+      },
+      {
+        "x": 0.544,
+        "y": 0.78,
+        "neighbors": [
+          22,
+          24
+        ],
+        "effects": []
+      },
+      {
+        "x": 0.446,
+        "y": 0.776,
+        "neighbors": [
+          23,
+          25
+        ],
+        "effects": []
+      },
+      {
+        "x": 0.344,
+        "y": 0.774,
+        "neighbors": [
+          24,
+          26
+        ],
+        "effects": [
+          {
+            "type": "ACTION_ADJUST_RESOURCE",
+            "args": [
+              1,
+              -10
+            ]
+          },
+          {
+            "type": "ACTION_SPIN",
+            "args": [1]
+          }
+        ]
+      },
+      {
+        "x": 0.248,
+        "y": 0.778,
+        "neighbors": [
+          25,
+          27
+        ],
+        "effects": [
+          {
+            "type": "ACTION_ADJUST_RESOURCE",
+            "args": [
+              1,
+              20
+            ]
+          }
+        ]
+      },
+      {
+        "x": 0.146,
+        "y": 0.776,
+        "neighbors": [
+          26,
+          0
+        ],
+        "effects": []
+      }
+    ],
+    "src": "https://aherbez.github.io/boardgame-res/boards/004.jpg"
+  },
+  "colors": [
+    {
+      "id": 1,
+      "value": "#00ff88"
+    },
+    {
+      "id": 2,
+      "value": "#c800ff"
+    }
+  ],
+  "loadouts": {
+    "pieces": [
+      {
+        "id": 1,
+        "num": 1,
+        "color": "p",
+        "start_loc": 0
+      }
+    ]
+  }
+}
